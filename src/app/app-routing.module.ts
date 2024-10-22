@@ -5,6 +5,10 @@ import { AboutPageComponent } from './shared/pages/about-page/about-page.compone
 import { ContactsPageComponent } from './shared/pages/contacts-page/contacts-page.component';
 
 const routes: Routes = [
+  // {
+  //   path: '',
+  //   component: HomePageComponent
+  // },
   {
     path: 'home',
     component: HomePageComponent
@@ -23,8 +27,9 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'home'
+    redirectTo: 'countries'
   },
+
 ];
 
 @NgModule({
