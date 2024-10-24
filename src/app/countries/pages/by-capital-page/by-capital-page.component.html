@@ -5,7 +5,9 @@
 <div class="row">
   <div class="col">
     <!-- Search Box -->
-     <input type="text" placeholder="Buscar por capital" class="form-control">
+    <shared-search-box
+    (onValue)="searchByCapital($event)"
+    placeholder="Buscar por Capital"></shared-search-box>
   </div>
 </div>
 <div class="row">
